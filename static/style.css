@@ -1,0 +1,51 @@
+body {
+	background-color: pink;
+}
+
+h1 {
+	color: beige;
+	text-align:center;
+	font-family:helvetica;
+	text-transform: uppercase;
+	word-spacing: +20em
+	font-weight: bolder;
+	font-size:100px;
+}
+
+h2 {
+	color: brown;
+	text-align:center;
+	text-align:center;
+	font-family:helvetica;
+	font-weight: bold;
+	font-size:40px;
+}
+
+h3 {
+	color: red;
+	text-align:center;
+	font-family:helvetica;
+	font-weight: bold;
+	font-size:30px;
+}
+
+h4 {
+	color: brown;
+	text-align:center;
+	font-family:helvetica;
+	font-weight: bold;
+	font-size:20px;
+}
+
+h5 {
+	color: white;
+	text-align:center;
+	font-family:helvetica;
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-size:10px;
+}
+
+ul {
+	list-style-type: none;
+}

@@ -33,9 +33,13 @@
 
 	<h4>	
 		<ul>
-			{% for quiz in quizzes %}
-				<li> {{ quiz.name }}</li>
-			{% endfor %}
+		{% for quiz in quizzes %}
+    	<a href="{% url 'quiz_page' quiz.quiz_number %}">
+        {{ quiz.name }}
+    	</a>
+		{% endfor %}
+		
+
 		</ul>
 	
 	</h4>

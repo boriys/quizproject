@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 def startpage(request):
-	return(request, "start.html")
+	return render(request, "start.html")
 
 def quiz(request, quiz_number):
 	return render(request, "quiz.html")

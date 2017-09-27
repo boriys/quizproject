@@ -21,7 +21,6 @@
 	</h1>
 	
 	<br>
-	<br>
 	
 	<h3>
 	Hej du har kommit till min quizsida och här kan du göra ett gött quiz om goa saker:
@@ -29,14 +28,14 @@
 
 	<br>
 	<br>
-	<br>
 
 	<h4>	
 		<ul>
 		{% for quiz in quizzes %}
-    	<a href="{% url 'quiz_page' quiz.quiz_number %}">
+    	<li><a href="{% url 'quiz_page' quiz.quiz_number %}">
         {{ quiz.name }}
-    	</a>
+    	</li></a>
+    	<br>
 		{% endfor %}
 		
 

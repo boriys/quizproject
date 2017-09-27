@@ -31,17 +31,13 @@
 	<br>
 	<br>
 
-{% for quiz in quizzes %}
-	<p>{{ quiz.name }}</p>
-{% endfor %}
-
 	<h4>	
-	
 		<ul>
-			<li> Prince-quizet </li>
-			<li> 70-talsquizet </li>
-			<li> Klubbklippdigquizzet </li>
+			{% for quiz in quizzes %}
+				<li> {{ quiz.name }}</li>
+			{% endfor %}
 		</ul>
+	
 	</h4>
 
 

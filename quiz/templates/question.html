@@ -25,24 +25,25 @@
 	<br>
 
 
+		<form action="{% url "answer_page" quiz.quiz_number question_number %}" method="post">
+		{% csrf_token %}
 	
-	
-		<form>
-
 	<h2>{{ question_number }}. {{ question }} </h2>
 
 	<h6>
 
-			<input type="radio" name="year" value= "{{ answer1 }}" checked> {{ answer1 }} <br>
-			<input type="radio" name="year" value= "{{ answer2 }}" checked> {{ answer2 }} <br>
-			<input type="radio" name="year" value= "{{ answer3 }}" checked> {{ answer3 }} <br>
+
+			<input type="radio" name="answer" value="1" "{{ answer1 }}" checked> {{ answer1 }} <br>
+			<input type="radio" name="answer" value="2" "{{ answer2 }}"> {{ answer2 }} <br>
+			<input type="radio" name="answer" value="3" "{{ answer3 }}"> {{ answer3 }} <br>
+
+			<button type="submit">Nästa</button>
 		
 
 		</form>
 	</h6>
 	<br>
 	<h3>
-		<a href="{% url 'completed_page' quiz_number %}"> Nästa </a>
 
 	</h3>
 

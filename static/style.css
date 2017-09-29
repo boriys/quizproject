@@ -1,40 +1,61 @@
 @import url("https://fonts.googleapis.com/css?family=Shrikhand");
 @import url("https://fonts.googleapis.com/css?family=Capriola");
+@import "compass/css3";
 
 body {
 	background-color: pink;
+	margin: 20px;
+	text-align: center;
+
 }
+
+.quiz_page {
+	background: purple;
+}
+
+.quiz_page a{
+	color:white;
+}
+
+.quiz_page h1{
+	color:white;
+}
+
+.quiz_page h2{
+	color:violet;
+}
+
 
 h1 {
 	color: beige;
 	text-align:center;
   	font-family: 'Shrikhand', cursive;
-  	font-weight: none;
+	font-weight: 200;
 	text-transform: uppercase;
-	font-size:19vw;
+	font-size:14vw;
 }
 
 h2 {
 	color: red;
 	text-align:center;
-	text-align:center;
   	font-family: 'Shrikhand', cursive;
-	font-size:6vw;
+	font-weight: 200;
+	font-size:4.5vw;
 }
 
 h6 {
 	color: brown;
 	text-align:center;
-	text-align:center;
   	font-family: 'Shrikhand', cursive;
+	font-weight: 200;
 	font-size:5vw;
 }
 
 h3 {
-	color: brown;
+	color: white;
 	text-align:center;
   	font-family: 'Capriola', sans-serif;
-	font-size:4vw;
+	font-size:3vw;
 }
 
 h4 {
@@ -66,4 +87,14 @@ a:hover {
 
 ul {
 	list-style-type: none;
+	padding-left:0;
 }
+
+/*
+img {
+	margin:0 auto;
+}
+*/
+
+
+

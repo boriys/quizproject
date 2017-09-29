@@ -70,13 +70,15 @@ h1 {
 	font-size:18vw;
 }
 
-h2 {
+
+h4 {
 	color: red;
 	text-align:center;
   	font-family: 'Shrikhand', cursive;
 	font-weight: 100;
-	font-size:7vw;
+	font-size:5vw;
 }
+
 
 h6 {
 	color: brown;
@@ -94,12 +96,12 @@ h3 {
 	font-size:4vw;
 }
 
-h4 {
+/*h4 {
 	color: brown;
 	text-align:center;
   	font-family: 'Capriola', sans-serif;
 	font-size:5vw;
-}
+}*/
 
 h5 {
 	color: white;

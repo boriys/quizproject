@@ -6,7 +6,7 @@ body {
 	background-color: pink;
 	margin: 20px;
 	text-align: center;
-	line-height: 1.7; 
+	line-height: 1.5; 
 
 }
 
@@ -78,7 +78,7 @@ h2 {
 	text-align:center;
   	font-family: 'Shrikhand', cursive;
 	font-weight: 100;
-	font-size:5vw;
+	font-size:7vw;
 }
 
 h6 {
@@ -86,14 +86,15 @@ h6 {
 	text-align:center;
   	font-family: 'Shrikhand', cursive;
 	font-weight: 100;
-	font-size:3vw;
+	font-size:4vw;
 }
 
 h3 {
 	color: white;
 	text-align:center;
+	line-height: 2.0; 
   	font-family: 'Capriola', sans-serif;
-	font-size:3vw;
+	font-size:4vw;
 }
 
 h4 {
